@@ -7,7 +7,8 @@ import { NoMatch } from './components/NoMatch';
 import { Amazon } from './components/Amazon';
 import './App.css';
 import { Layout } from './components/Layout';
-import { NavigationBar} from './components/Navbar';
+import { NavigationBar } from './components/NavigationBar';
+import { Footer } from './components/Footer';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
         <Layout>
           <Router>
             <Switch>
-              <Route exact path="/" component={Home}/>
+              <Route exact path="/home" component={Home}/>
               <Route path="/apple" component={Apple}/>
               <Route path="/amazon" component={Amazon}/>
               <Route path="/google" component={Google}/>
@@ -25,6 +26,7 @@ class App extends Component {
             </Switch>
           </Router>  
         </Layout>
+        <Footer/>
       </>
     );
   }

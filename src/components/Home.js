@@ -30,7 +30,7 @@ export const Home = () => (
                     </div>
                 </div>
                 <div className="col col-sm ">
-                    <img className="d-block d-flex ml-3 img-fluid" src="/" />
+                    <img className="d-block d-flex ml-3 img-fluid" src="http://localhost:3003/img/stephan-bechert-yFV39g6AZ5o-unsplash.jpg" />
                 </div>
                 </div>
             </div>
@@ -75,10 +75,10 @@ export const Home = () => (
             style={{ maxWidth: "28rem" }}
             >
             <img
-                src="https://via.placeholder.com/50"
+                src="https://cdn.pixabay.com/photo/2020/03/05/17/36/smart-home-4905026__340.jpg"
                 className="card-img-top p-2"
                 alt="..."
-                style={{ maxHeight: 100 }}
+                style={{ maxHeight: 200 }}
             />
             <div className="card-body">
                 <h5 className="card-title">Automation</h5>
@@ -94,10 +94,10 @@ export const Home = () => (
             style={{ maxWidth: "28rem" }}
             >
             <img
-                src="..."
+                src="https://cdn.pixabay.com/photo/2018/12/14/11/48/smart-3874907_960_720.jpg"
                 className="card-img-top p-2"
                 alt="..."
-                style={{ maxHeight: 100 }}
+                style={{ maxHeight: 200 }}
             />
             <div className="card-body">
                 <h5 className="card-title">Security</h5>
@@ -113,10 +113,10 @@ export const Home = () => (
             style={{ maxWidth: "28rem" }}
             >
             <img
-                src="..."
+                src="https://cdn.pixabay.com/photo/2017/08/10/00/41/home-2616543__340.jpg"
                 className="card-img-top p-2"
                 alt="..."
-                style={{ maxHeight: 100 }}
+                style={{ maxHeight: 200 }}
             />
             <div className="card-body">
                 <h5 className="card-title">Entertainment</h5>
