@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+.jumbotron{
+  background-color: azure;
+}
+body {
+  background: linear-gradient( rgb(201, 196, 193), lightSteelBlue);
+}
+h1 {
+  color: rgb(84, 116, 158);
+}
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 17rem;
+  margin-left: 17rem;
+  border: 6;
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  border-color: rgba(84, 116, 158, 0.644);
+}
+.line-short {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 20rem;
+  margin-left: 20rem;
+  border: 6;
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  border-color: rgba(84, 116, 158, 0.644);
+}
+.line-eco {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 6rem;
+  margin-left: 2rem;
+  border: 6;
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
+  border-color: rgba(84, 116, 158, 0.644);
+}
+
+footer {
+  background-color: #cad7e2;
+}
+
+nav {
+  background-color: #cad7e2;
+} 
+.nav-link {
+  color: rgb(84, 116, 158);
+}
+/* @media(max-width:767px){
+  .image1 {
+      display: block!important; 
+  }
+  .image2 {
+      display: none !important; 
+  }
+} */
+.sign {
+  background-color: rgba(84, 116, 158, 0.76);
+  color: azure;
+}
+.btn-outline {
+  border-style: solid;
+  border-color: rgba(84, 116, 158, 0.76);
+  
+
+}
+.btn-outline:hover {
+  background-color: rgba(84, 116, 158, 0.76);
+  color: azure;
+}
+.modal-header {
+  background-color: #cad7e2
+}
+.modal-body {
+  background: linear-gradient( rgb(201, 196, 193), lightSteelBlue);
+  opacity: 50%;
+}
+

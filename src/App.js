@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Home } from './components/Home';
+import { Apple } from './components/Apple';
+import { Google } from './components/Google';
+import { NoMatch } from './components/NoMatch';
+import { Amazon } from './components/Amazon';
 import './App.css';
+import { Layout } from './components/Layout';
+import { NavigationBar} from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <NavigationBar/>
+        <Layout>
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Home}/>
+              <Route path="/apple" component={Apple}/>
+              <Route path="/amazon" component={Amazon}/>
+              <Route path="/google" component={Google}/>
+              <Route component={NoMatch}/>
+            </Switch>
+          </Router>  
+        </Layout>
+      </>
+    );
+  }
 }
 
 export default App;
